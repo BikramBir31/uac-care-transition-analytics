@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.venv-wsl/
+
+# Node
+node_modules/
+
+# Office lock files
+~$*
+
+# Local tool/session state
+.claude/

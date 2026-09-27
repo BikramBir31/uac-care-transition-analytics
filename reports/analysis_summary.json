@@ -1,0 +1,122 @@
+{
+  "date_range": {
+    "start": "January 12, 2023",
+    "end": "December 21, 2025"
+  },
+  "report_count": 720,
+  "latest": {
+    "date": "December 21, 2025",
+    "cbp_custody": 18,
+    "hhs_care": 2484,
+    "transfer_efficiency_ratio": 0.6111111111111112,
+    "discharge_effectiveness_index": 0.005636070853462158
+  },
+  "totals": {
+    "apprehended": 67337,
+    "transferred_out_cbp": 92641,
+    "discharged": 124853
+  },
+  "yearly": {
+    "2023": {
+      "reports": 230.0,
+      "avg_transfer_efficiency": 0.8299579069167139,
+      "avg_discharge_effectiveness": 0.033357729075701385,
+      "avg_hhs_care": 8646.073913043478,
+      "avg_cbp_custody": 200.4695652173913,
+      "total_discharged": 66244.0
+    },
+    "2024": {
+      "reports": 251.0,
+      "avg_transfer_efficiency": 0.7833556590075013,
+      "avg_discharge_effectiveness": 0.028968246429601646,
+      "avg_hhs_care": 7042.960159362549,
+      "avg_cbp_custody": 276.9043824701195,
+      "total_discharged": 51689.0
+    },
+    "2025": {
+      "reports": 239.0,
+      "avg_transfer_efficiency": 0.4603352329036797,
+      "avg_discharge_effectiveness": 0.008984663063829432,
+      "avg_hhs_care": 2542.836820083682,
+      "avg_cbp_custody": 32.90794979079498,
+      "total_discharged": 6920.0
+    }
+  },
+  "backlog": {
+    "windows_flagged": 249,
+    "share_of_reports": 0.3458333333333333,
+    "longest_streak_reports": 64,
+    "longest_streak_start": "September 29, 2024",
+    "longest_streak_end": "December 30, 2024",
+    "peak_value": 1028.0,
+    "peak_date": "May 02, 2024",
+    "recent_30d_avg": 3.2666666666666666,
+    "prior_30d_avg": 7.9
+  },
+  "weekday_vs_weekend": {
+    "weekday_avg_discharge_effectiveness": 0.02271054373747621,
+    "weekend_avg_discharge_effectiveness": 0.028395547756812346
+  },
+  "stability": {
+    "avg_score": 0.2942041880307103,
+    "median_score": 0.2460062735700012,
+    "high_volatility_reports": 43,
+    "high_volatility_threshold": 0.5
+  },
+  "monthly_discharge_effectiveness": {
+    "2023-01": 0.032084282144830584,
+    "2023-02": 0.03503218693018031,
+    "2023-03": 0.0356129610416695,
+    "2023-04": 0.0344352888209864,
+    "2023-05": 0.034681348177039356,
+    "2023-06": 0.03270330824965513,
+    "2023-07": 0.03079182725311562,
+    "2023-08": 0.03439921095330794,
+    "2023-09": 0.032164033173357344,
+    "2023-10": 0.03430588053617629,
+    "2023-11": 0.030898978516023447,
+    "2023-12": 0.03235318762458537,
+    "2024-01": 0.03348630666062703,
+    "2024-02": 0.031744989247100355,
+    "2024-03": 0.032396029232177846,
+    "2024-04": 0.02909243806759704,
+    "2024-05": 0.027568440517611294,
+    "2024-06": 0.03162067517488486,
+    "2024-07": 0.02959421690379866,
+    "2024-08": 0.026986931526031127,
+    "2024-09": 0.027029271751451287,
+    "2024-10": 0.025220534759558797,
+    "2024-11": 0.026738260243988843,
+    "2024-12": 0.025889874288914014,
+    "2025-01": 0.030515118143611478,
+    "2025-02": 0.02058782813908535,
+    "2025-03": 0.006402668985647598,
+    "2025-04": 0.003878404299086946,
+    "2025-05": 0.0047344222740096495,
+    "2025-06": 0.0066518362458505105,
+    "2025-07": 0.008553166924894301,
+    "2025-08": 0.006349301355779748,
+    "2025-09": 0.005167966867024442,
+    "2025-10": 0.005174659649320786,
+    "2025-11": 0.003613654823737509,
+    "2025-12": 0.003923013791907898
+  },
+  "monthly_trend_direction_last_6mo": "declining",
+  "forecast": {
+    "caveat": "Directional trend estimate only, based on a simple linear fit over the trailing 60 days of reports. Not a validated predictive model - do not treat as a forecast with known accuracy.",
+    "backlog_accumulation_rate": {
+      "last_actual": -9.0,
+      "projected": 5.747157117047929,
+      "direction": "increasing"
+    },
+    "discharge_effectiveness_index": {
+      "last_actual": 0.005636070853462158,
+      "projected": 0.002678746576277523,
+      "direction": "decreasing"
+    }
+  },
+  "data_quality": {
+    "anomalies_flagged": 0,
+    "apprehension_footnote_caveat": "The source column 'Children apprehended and placed in CBP custody' carries a footnote marker (*) whose definition is not included in this extract; its exact scope should be confirmed with HHS before this figure is used in isolation."
+  }
+}
